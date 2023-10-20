@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header {
+    width: 100%;
+    background-color: orange;
+    padding: 15px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    mix-blend-mode: color-burn;
+}
+
+header h1 {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline solid #085ED7;
+}
+
+.carousel-item img {
+    max-height: 366px;
+}
+
+.row {
+    justify-content: center;
+}
+
+#cards {
+    margin-top: 5vh;
+}
+
+.card {
+    max-width: 90%;
+}
+
