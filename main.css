@@ -1,11 +1,7 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #212529;
 }
 
 header {
@@ -20,30 +16,68 @@ header {
     align-items: center;
 }
 
-header img {
+header img, 
+footer img{
     height: 50px;
     mix-blend-mode: color-burn;
 }
 
-header h1 {
+#cards {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 2vh;
+}
+
+h1 {
     font-style: italic;
     font-weight: bold;
     text-decoration: underline solid #085ED7;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 2px;
 }
 
 .carousel-item img {
-    max-height: 366px;
+    max-height: 600px;
 }
 
 .row {
     justify-content: center;
 }
 
-#cards {
-    margin-top: 5vh;
+.list-group, 
+.card-subtitle,
+.card-title {
+    text-align: center;
+}
+
+.card img {
+    max-height: 400px;
+}
+
+small {
+    font-size: small;
 }
 
 .card {
     max-width: 90%;
 }
 
+footer {
+    background-color: orange;
+    padding: 15px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: inline-flex;
+    align-items: center;
+}
