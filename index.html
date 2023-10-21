@@ -19,10 +19,10 @@
                 <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Seções</button>
                 <ul class="dropdown-menu" data-bs-theme="dark">
                     <li class="dropdown-item">
-                        <a href="#">Cards</a>
+                        <a href="#cards">Cards</a>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#">Contato</a>
+                        <a href="#login">Login</a>
                     </li>
                 </ul>
             </div>
@@ -196,35 +196,37 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer id="login">
         <div class="container">
             <div class="dropdown">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Login</button>
-                <ul class="dropdown-menu" data-bs-theme="dark">
-                    <li class="dropdown-item">
-                        <form>
-                            </h5>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                                    placeholder="Insira seu e-mail">
-                            </div>
-                            <div class="form-group">
-                                <label for="senha">Senha</label>
-                                <input type="password" class="form-control" id="senha" placeholder="Insira sua senha">
-                            </div>
-                            <div class="form-check form-switch">
-                                <input type="checkbox" class="form-check-input" id="manter">
-                                <label class="form-check-label" for="manter">Mantenha-me conectado</label>
-                            </div>
-                            <div class="form-group">
-                                <label for="cadastro"><small>Não tem uma conta ?</small></label>
-                                <a href="#" id="cadastro">Criar conta</a>
-                            </div>
-                            <button type="submit" class="btn btn-primary">enviar</button>
-                        </form>
-                    </li>
-                </ul>
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Iniciar Sessão</button>
+                    <ul class="dropdown-menu" data-bs-theme="dark">
+                        <li class="dropdown-item">
+                            <form> 
+                                <h5>Login</h5>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                        placeholder="Insira seu e-mail">
+                                </div>
+                                <div class="form-group">
+                                    <label for="senha">Senha</label>
+                                    <input type="password" class="form-control" id="senha" placeholder="Insira sua senha">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input type="checkbox" class="form-check-input" id="manter">
+                                    <label class="form-check-label" for="manter">Mantenha-me conectado</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                            <div class="dropdown-divider form-group"></div>
+                                <a href="#">Não tem uma conta?</a>
+                                <div></div>
+                                <a href="#">Esquecí minha senha</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div id="logo">
                 <h6>Monkey Cards - &copy; todos os direitos reservados</h6>
